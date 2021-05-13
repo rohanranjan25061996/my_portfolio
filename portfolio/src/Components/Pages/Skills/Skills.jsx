@@ -6,20 +6,17 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { skills } from "./skill-data";
 import "./Skill.css";
-
 const Skills = () => {
    return (
       <div className="pt-3 mt-5 pb-3 skill" id="skills">
          <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
-        <CardDeck>
+         <CardDeck>
             <Row
                className="d-flex justify-content-around"
-               style={{ margin: "auto", justifyContent: "center" }}
+               style={{ margin: "auto" }}
             >
-               <Col sm></Col>
-               <Col sm></Col>
-               <Col sm></Col>
-               <Col md={5}>
+               {/* Frontend */}
+               <Col md={4}>
                   <Card className="focus mt-2 mb-2">
                      <Card.Body>
                         {/* Frontend */}
@@ -50,8 +47,8 @@ const Skills = () => {
                      </Card.Body>
                   </Card>
                </Col>
-               <Col sm></Col>
-               <Col md={5}>
+               {/* Backend */}
+               <Col md={4}>
                   <Card className="focus mt-2 mb-2">
                      <Card.Body>
                         <Card.Title className="text-center  card-title">
@@ -80,6 +77,11 @@ const Skills = () => {
                         </Card.Text>
                      </Card.Body>
                   </Card>
+                  {/* Hosting Platforms */}
+               </Col>
+               {/* Programming Languages */}
+               <Col md={4}>
+                  {/* Database */}
                   <Card className="focus mt-2 mb-2">
                      <Card.Body>
                         <Card.Title className="text-center  card-title">
@@ -112,5 +114,4 @@ const Skills = () => {
       </div>
    );
 };
-
 export { Skills };

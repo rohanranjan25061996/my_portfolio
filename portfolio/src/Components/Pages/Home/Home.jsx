@@ -14,7 +14,8 @@ function Home() {
                <div className="row full-screen ">
                <div className="home-img ">
                      <div className="img-box shadow">
-                        <img src="https://i.ibb.co/NsKFqMR/original-pic-1.jpg" alt="profile-pic" />
+                        {/* <img src="https://i.ibb.co/NsKFqMR/original-pic-1.jpg" alt="profile-pic" /> */}
+                        <img src="https://i.ibb.co/pzWJ4xK/original-pic-1-removebg-preview.png" alt="profile-pic" />
                      </div>
                   </div>
                   <div className="home-text " style={{ color: "#F6F6F6" }}>
@@ -29,7 +30,7 @@ function Home() {
                            <a href = {Resume} download = "Rohan-Ranjan-Resume.pdf"> Download Resume</a>
                         </div>
                         <div className="about-me-btn">
-                           <a href = "https://www.linkedin.com/in/rohanranjan96/"> <LinkedInIcon /> Linkdin </a>
+                           <a href = "https://www.linkedin.com/in/rohanranjan96/"> <LinkedInIcon /> Linkedin </a>
                         </div>
                         <div className="about-me-btn">
                            <a href = "https://github.com/rohanranjan25061996"> <GitHubIcon /> Github </a>

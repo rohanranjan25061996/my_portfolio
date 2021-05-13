@@ -10,6 +10,12 @@
   margin-top: 10px;
   box-shadow: 0;
 }
-.projects__link a {
+.projects__links a {
   text-decoration: none !important;
+  border-radius: 8px;
+  padding: 8px;
+  color: black;
+  width: 120px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }

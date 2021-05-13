@@ -30,6 +30,7 @@
     flex-direction: column;
     margin-top: 10px !important;
     height: 130px;
+    border: red;
   }
 }
 .home-section .home-text,
