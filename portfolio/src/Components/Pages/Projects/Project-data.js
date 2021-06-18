@@ -1,24 +1,19 @@
-import HTML5 from "../../assets/images/TechPic/html-5.svg";
-import CSS3 from "../../assets/images/TechPic/css3.svg";
-import BOOTSTRAP from "../../assets/images/TechPic/bootstrap-4.svg";
+import HTML5 from "../../assets/images/TechPic/html.svg";
+import CSS3 from "../../assets/images/TechPic/css.svg";
 import REACT from "../../assets/images/TechPic/react.svg";
 import REDUX from "../../assets/images/TechPic/redux.svg";
-import REACT_ROUTER from "../../assets/images/TechPic/react-router.svg";
-import MATERIALUI from "../../assets/images/TechPic/material-ui-1.svg";
-import REACT_BOOTSTRAP from "../../assets/images/TechPic/react-bootstrap.svg";
-import STYLED_COMPONENTS from "../../assets/images/TechPic/styled-components.svg";
 import NODE_JS from "../../assets/images/TechPic/nodejs.svg";
-import EXPRESS from "../../assets/images/TechPic/express.svg";
-import MONGODB from "../../assets/images/TechPic/mongodb.svg";
-import MSSQL from "../../assets/images/TechPic/mssql.svg";
-import GIT from "../../assets/images/TechPic/git-icon.svg";
-import HEROKU from "../../assets/images/TechPic/heroku.svg";
+import MONGODB from "../../assets/images/TechPic/mongoDB.svg";
+import MSSQL from "../../assets/images/TechPic/mysql.svg";
+import GIT from "../../assets/images/TechPic/git.svg";
 import GITHUB_PAGES from "../../assets/images/TechPic/github.svg";
-import JAVASCRIPT from "../../assets/images/TechPic/javascript.svg";
+import JAVASCRIPT from "../../assets/images/TechPic/js.svg";
 import ALJ from "../../assets/images/TechPic/ALJ.png"
 import shoes4us from "../../assets/images/TechPic/shoes4us.png"
 import fatsecret from "../../assets/images/TechPic/fatsecret.png"
 import gdg from "../../assets/images/TechPic/gdg.png"
+import onlineEditor from "../../assets/images/TechPic/online-editor.png"
+import starWars from "../../assets/images/TechPic/star-wars.png"
 
 export const projects = [
    {
@@ -33,9 +28,7 @@ export const projects = [
          CSS3,
          JAVASCRIPT,
          REACT,
-         BOOTSTRAP,
-         REACT_BOOTSTRAP,
-         HEROKU
+         REDUX
       ],
    },
    {
@@ -45,7 +38,25 @@ export const projects = [
          "Shoes4Us is e-commerce website for Footwear lovers, all top brand shoes you will get in one roof.Self-endeavour of creating a completely functional e-commerce website for footwear integrating various real- life components. Tech Stack : HTML, CSS, Javascript, React",
       github_link: "https://github.com/rohanranjan25061996/shoes4usrohanreact",
       deployed_link: "https://shoes4usrohan.netlify.app/",
-      technologies: [HTML5, CSS3, JAVASCRIPT, REACT, MATERIALUI],
+      technologies: [HTML5, CSS3, JAVASCRIPT, REACT],
+   },
+   {
+      project_name: "Online Editor",
+        project_image: onlineEditor,
+      Project_description:
+         "Online Editor for HTML, CSS, Javascript code. Which will run live. Code is also persist when we refresh the page.",
+      github_link: "https://github.com/rohanranjan25061996/online-editor",
+      deployed_link: "https://rohan-online-html-css-js-editor.netlify.app/",
+      technologies: [HTML5, CSS3, JAVASCRIPT, REACT],
+   },
+   {
+      project_name: "STARS WAR API Search",
+        project_image: starWars,
+      Project_description:
+         "An Optimize Search Data. Using STAR-WARS API creating Live Search Box and Character page with some cool details about characters.",
+      github_link: "https://github.com/rohanranjan25061996/urban_pipper_assingment",
+      deployed_link: "https://rohan-ranjan-urban-piper-assignments.netlify.app/",
+      technologies: [HTML5, CSS3, JAVASCRIPT, REACT],
    },
    {
       project_name: "FatSecret Clone",
@@ -63,7 +74,7 @@ export const projects = [
          "The Digital Garage is a non-profit nationwide programme from Google delivering free digital skills training via an online learning platform. Cloned it under 4 days with a team of 3 people. Technologies used here are HTML, CSS",
       github_link: "https://github.com/rohanranjan25061996/google-digital-garage-clone-Unit-1-",
       deployed_link:
-         "https://github.com/rohanranjan25061996/google-digital-garage-clone-Unit-1-",
+         "https://drive.google.com/file/d/1tdtbRG_HopE-PHJDupackR1J43mlapCz/view?usp=sharing",
       technologies: [HTML5, CSS3],
    },
 ];

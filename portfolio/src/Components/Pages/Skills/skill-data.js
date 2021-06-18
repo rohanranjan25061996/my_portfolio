@@ -1,20 +1,13 @@
-import L_HTML5 from "../../assets/images/TechPic/html-5.svg";
-import L_CSS3 from "../../assets/images/TechPic/css3.svg";
-import L_BOOTSTRAP from "../../assets/images/TechPic/bootstrap-4.svg";
+import L_HTML5 from "../../assets/images/TechPic/html.svg";
+import L_CSS3 from "../../assets/images/TechPic/css.svg";
 import L_REACT from "../../assets/images/TechPic/react.svg";
 import L_REDUX from "../../assets/images/TechPic/redux.svg";
-import L_REACT_ROUTER from "../../assets/images/TechPic/react-router.svg";
-import L_MATERIALUI from "../../assets/images/TechPic/material-ui-1.svg";
-import L_REACT_BOOTSTRAP from "../../assets/images/TechPic/react-bootstrap.svg";
-import L_STYLED_COMPONENTS from "../../assets/images/TechPic/styled-components.svg";
 import L_NODE_JS from "../../assets/images/TechPic/nodejs.svg";
-import L_EXPRESS from "../../assets/images/TechPic/express.svg";
-import L_MONGODB from "../../assets/images/TechPic/mongodb.svg";
-import L_GIT from "../../assets/images/TechPic/git-icon.svg";
-import L_HEROKU from "../../assets/images/TechPic/heroku.svg";
-import L_GITHUB_PAGES from "../../assets/images/TechPic/github.svg";
-import L_JAVASCRIPT from "../../assets/images/TechPic/javascript.svg";
-import mysql from "../../assets/images/TechPic/mysql.svg.png"
+import L_MONGODB from "../../assets/images/TechPic/mongoDB.svg";
+import L_GIT from "../../assets/images/TechPic/git.svg";
+import L_JAVASCRIPT from "../../assets/images/TechPic/js.svg";
+import L_DSA from "../../assets/images/TechPic/DSA.svg";
+import L_MYSQL from "../../assets/images/TechPic/mysql.svg";
 
 export const skills = {
    frontend: [
@@ -25,8 +18,7 @@ export const skills = {
          skillName: "HTML5",
       },
       {
-         link:
-            "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
+         link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
          imgAltText: "CSS 3",
          imgSrc: L_CSS3,
          skillName: "CSS3",
@@ -36,19 +28,6 @@ export const skills = {
          imgAltText: "JavaScript",
          imgSrc: L_JAVASCRIPT,
          skillName: "JavaScript",
-      },
-      {
-         link: "https://material-ui.com/",
-         imgAltText: "Material-UI",
-         imgSrc: L_MATERIALUI,
-         skillName: "Material-UI",
-      },
-
-      {
-         link: "https://getbootstrap.com/",
-         imgAltText: "Bootstrap",
-         imgSrc: L_BOOTSTRAP,
-         skillName: "Bootstrap",
       },
       {
          link: "https://reactjs.org/",
@@ -63,37 +42,10 @@ export const skills = {
          skillName: "Redux",
       },
       {
-         link: "https://reacttraining.com/react-router/",
-         imgAltText: "React Router",
-         imgSrc: L_REACT_ROUTER,
-         skillName: "React Router",
-      },
-      {
-         link: "https://react-bootstrap.github.io/",
-         imgAltText: "React Bootstrap",
-         imgSrc: L_REACT_BOOTSTRAP,
-         skillName: "React Bootstrap",
-      },
-      {
-         link: "https://styled-components.com/",
-         imgAltText: "styled-components",
-         imgSrc: L_STYLED_COMPONENTS,
-         skillName: "styled-components",
-      },
-   ],
-
-   backend: [
-      {
          link: "https://nodejs.org/en/",
          imgAltText: "Node.js",
          imgSrc: L_NODE_JS,
          skillName: "Node.js",
-      },
-      {
-         link: "https://expressjs.com/",
-         imgAltText: "Express",
-         imgSrc: L_EXPRESS,
-         skillName: "Express",
       },
       {
          link: "https://www.mongodb.com/",
@@ -101,20 +53,25 @@ export const skills = {
          imgSrc: L_MONGODB,
          skillName: "MongoDB",
       },
-
       {
          link: "https://www.mongodb.com/",
-         imgAltText: "MongoDB",
-         imgSrc: mysql,
-         skillName: "MySQL",
-      }
-   ],
-   versionControl: [
-      {
-         link: "https://git-scm.com/",
          imgAltText: "GIT",
          imgSrc: L_GIT,
          skillName: "GIT",
+      },
+
+      {
+         link: "https://www.mongodb.com/",
+         imgAltText: "GIT",
+         imgSrc: L_DSA,
+         skillName: "DSA",
+      },
+
+      {
+         link: "https://www.mongodb.com/",
+         imgAltText: "GIT",
+         imgSrc: L_MYSQL,
+         skillName: "My-SQL",
       },
    ],
 };

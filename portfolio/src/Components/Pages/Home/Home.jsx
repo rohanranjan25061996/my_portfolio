@@ -30,10 +30,10 @@ function Home() {
                            <a href = {Resume} download = "Rohan-Ranjan-Resume.pdf"> Download Resume</a>
                         </div>
                         <div className="about-me-btn">
-                           <a href = "https://www.linkedin.com/in/rohanranjan96/"> <LinkedInIcon /> Linkedin </a>
+                           <a href = "https://www.linkedin.com/in/rohanranjan96/" target = "_blank"> <LinkedInIcon /> Linkedin </a>
                         </div>
                         <div className="about-me-btn">
-                           <a href = "https://github.com/rohanranjan25061996"> <GitHubIcon /> Github </a>
+                           <a href = "https://github.com/rohanranjan25061996" target = "_blank"> <GitHubIcon /> Github </a>
                         </div>
                     </div>
                   </div>
