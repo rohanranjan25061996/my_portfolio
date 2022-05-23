@@ -8,7 +8,7 @@ const TypingTitle = () => {
             <Typewriter
                options={{
                   strings: [
-                     "Full Stack Developer",
+                     "Blockchain Developer",
                   ],
                   autoStart: true,
                   loop: true,

@@ -8,7 +8,12 @@ import L_GIT from "../../assets/images/TechPic/git.svg";
 import L_JAVASCRIPT from "../../assets/images/TechPic/js.svg";
 import L_DSA from "../../assets/images/TechPic/DSA.svg";
 import L_MYSQL from "../../assets/images/TechPic/mysql.svg";
-
+import L_Solidity from "../../assets/images/TechPic/solidity.svg"
+import L_Graphql from "../../assets/images/TechPic/graphql.svg"
+import L_Blockchain from "../../assets/images/TechPic/blockchain.svg"
+import L_Typescript from "../../assets/images/TechPic/typescript-2.svg"
+import L_Fastify from "../../assets/images/TechPic/fastify.svg"
+import L_GitLab from "../../assets/images/TechPic/gitlab.svg"
 export const skills = {
    frontend: [
       {
@@ -30,6 +35,24 @@ export const skills = {
          skillName: "JavaScript",
       },
       {
+         link: "https://www.javascript.com/",
+         imgAltText: "Typescript",
+         imgSrc: L_Typescript,
+         skillName: "Typescript",
+      },
+      {
+         link: "https://www.javascript.com/",
+         imgAltText: "Solidity",
+         imgSrc: L_Solidity,
+         skillName: "Solidity",
+      },
+      {
+         link: "https://www.javascript.com/",
+         imgAltText: "Blockchain",
+         imgSrc: L_Blockchain,
+         skillName: "Blockchain",
+      },
+      {
          link: "https://reactjs.org/",
          imgAltText: "React JS",
          imgSrc: L_REACT,
@@ -48,6 +71,12 @@ export const skills = {
          skillName: "Node.js",
       },
       {
+         link: "https://nodejs.org/en/",
+         imgAltText: "Fastify",
+         imgSrc: L_Fastify,
+         skillName: "Fastify",
+      },
+      {
          link: "https://www.mongodb.com/",
          imgAltText: "MongoDB",
          imgSrc: L_MONGODB,
@@ -55,23 +84,33 @@ export const skills = {
       },
       {
          link: "https://www.mongodb.com/",
-         imgAltText: "GIT",
-         imgSrc: L_GIT,
-         skillName: "GIT",
+         imgAltText: "GraphQL",
+         imgSrc: L_Graphql,
+         skillName: "GraphQL",
       },
-
+      {
+         link: "https://www.mongodb.com/",
+         imgAltText: "GIT",
+         imgSrc: L_MYSQL,
+         skillName: "My-SQL",
+      },
       {
          link: "https://www.mongodb.com/",
          imgAltText: "GIT",
          imgSrc: L_DSA,
          skillName: "DSA",
       },
-
       {
          link: "https://www.mongodb.com/",
          imgAltText: "GIT",
-         imgSrc: L_MYSQL,
-         skillName: "My-SQL",
+         imgSrc: L_GIT,
+         skillName: "GIT",
+      },
+      {
+         link: "https://www.mongodb.com/",
+         imgAltText: "GITLab",
+         imgSrc: L_GitLab,
+         skillName: "GITLab",
       },
    ],
 };

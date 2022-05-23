@@ -8,29 +8,101 @@ import MSSQL from "../../assets/images/TechPic/mysql.svg";
 import GIT from "../../assets/images/TechPic/git.svg";
 import GITHUB_PAGES from "../../assets/images/TechPic/github.svg";
 import JAVASCRIPT from "../../assets/images/TechPic/js.svg";
+import Solidity from "../../assets/images/TechPic/solidity.svg"
 import ALJ from "../../assets/images/TechPic/ALJ.png"
 import shoes4us from "../../assets/images/TechPic/shoes4us.png"
 import fatsecret from "../../assets/images/TechPic/fatsecret.png"
 import gdg from "../../assets/images/TechPic/gdg.png"
 import onlineEditor from "../../assets/images/TechPic/online-editor.png"
 import starWars from "../../assets/images/TechPic/star-wars.png"
+import SafeHouse from "../../assets/images/TechPic/SafeHouse.png"
+import NFTVisualizer from "../../assets/images/TechPic/NFTVisualizer.png"
+import MultiSigWallet from "../../assets/images/TechPic/MultiSigWallet.png"
+import EscrowContract from "../../assets/images/TechPic/EscrowContract.png"
+import SafeHelp from "../../assets/images/TechPic/Safe&Help.png"
 
 export const projects = [
    {
-      project_name: "Al-Jazeera Clone",
-        project_image: ALJ,
+      project_name: "Safe House",
+      project_image: SafeHouse,
       Project_description:
-         "Al Jazeera is an independent news organisation funded in part by the Qatari government. Implementation of functionalities such as Email, Cross-site sharing, Daily Feed Updation. Created in under 4 days with a team of 4 members, Tech Stack: HTML, CSS, Javascript, React, React-Redux, Heroku",
-      github_link: "https://github.com/rohanranjan25061996/hexane-aljeera-clone",
-      deployed_link: "https://clone-aljazeera.netlify.app/",
+         " A safe house is a multisignature wallet dapp based on ethereum. A user can create multiple safe and new owner for particular safe or delete exitsing onwer from safe. User will be able to create new transaction, when the transaction approved by all owners of the particular safe then we are able to coniform the transaction.",
+      github_link: "https://github.com/rohanranjan25061996/tripod-team",
+      deployed_link: "https://www.loom.com/share/00bb3076e1df487984af75853ecc69fc",
       technologies: [
          HTML5,
          CSS3,
          JAVASCRIPT,
          REACT,
-         REDUX
+         Solidity
       ],
    },
+   {
+      project_name: "NFT Visualizer",
+      project_image: NFTVisualizer,
+      Project_description:
+         "A NFT Visualizer is like open sea testnet network visulaizer. A user have to connect to his wallet, after that we will be able to fetch all NFT's ERC721, ERC1155, by deployed on rinkeby testnet n/w of that particular wallet address.",
+      github_link: "https://github.com/rohanranjan25061996/nft-visualizers",
+      deployed_link: "https://www.loom.com/share/100c60f298164adf9cdb283b7df15a73",
+      technologies: [
+         HTML5,
+         CSS3,
+         JAVASCRIPT,
+         REACT,
+         Solidity
+      ],
+   },
+
+   {
+      project_name: "MultiSigner Wallet",
+      project_image: MultiSigWallet,
+      Project_description:
+         "A MultiSig wallet is a digital wallet that operates with multisignature addresses. This means that it requires more than one private key to sign and authorize a crypto transaction or, in some cases, that several different keys can be used to generate a signature.",
+      github_link: "https://github.com/rohanranjan25061996/Multi-Sig-Wallet",
+      deployed_link: "https://www.loom.com/share/395ab663a24141e0a76d462e2b1de007",
+      technologies: [
+         HTML5,
+         CSS3,
+         JAVASCRIPT,
+         REACT,
+         Solidity
+      ],
+   },
+
+   {
+      project_name: "Escrow Contract",
+      project_image: EscrowContract,
+      Project_description:
+         "An escrow agreement is a contract that outlines the terms and conditions between parties involved, and the responsibility of each. Escrow agreements generally involve an independent third party, called an escrow agent, who holds an asset of value until the specified conditions of the contract are me",
+      github_link: "https://github.com/rohanranjan25061996/escrow-contract",
+      deployed_link: "https://www.loom.com/share/7eb6e71e828e4f748587d2c11c1b5f30",
+      technologies: [
+         HTML5,
+         CSS3,
+         JAVASCRIPT,
+         REACT,
+         Solidity
+      ],
+   },
+
+   {
+      project_name: "Safe & Help",
+      project_image: SafeHelp,
+      Project_description:
+         "Save & Help is a web application which is basically inspired with Ketto.org (https://www.ketto.org/) As we know that there is so many people in this world who is suffering from different different reason but the most common is full of hungry people and also people suffering from illness. So many NGO and individual people is working for helping them, this is just one step for those people who can help them with digital money like ethereum etc. This web application is deployed on ethereum test n/w rinkeby.",
+      github_link: "https://github.com/rohanranjan25061996/blockchain-crowd-fund-raisers",
+      deployed_link: "https://www.loom.com/share/0a1c9149c46d49ca84f20ef088d4f316",
+      technologies: [
+         HTML5,
+         CSS3,
+         JAVASCRIPT,
+         REACT,
+         Solidity
+      ],
+   },
+
+
+
    {
       project_name: "Shoes4Us",
         project_image: shoes4us,
@@ -48,33 +120,5 @@ export const projects = [
       github_link: "https://github.com/rohanranjan25061996/online-editor",
       deployed_link: "https://rohan-online-html-css-js-editor.netlify.app/",
       technologies: [HTML5, CSS3, JAVASCRIPT, REACT],
-   },
-   {
-      project_name: "STARS WAR API Search",
-        project_image: starWars,
-      Project_description:
-         "An Optimize Search Data. Using STAR-WARS API creating Live Search Box and Character page with some cool details about characters.",
-      github_link: "https://github.com/rohanranjan25061996/urban_pipper_assingment",
-      deployed_link: "https://rohan-ranjan-urban-piper-assignments.netlify.app/",
-      technologies: [HTML5, CSS3, JAVASCRIPT, REACT],
-   },
-   {
-      project_name: "FatSecret Clone",
-        project_image: fatsecret,
-      Project_description:
-         "FatSecret is a mobile application, website and API that lets users track their nutrition, exercise and weight. Cloned it under 3 days with a team of 3 people. Technologies used here are HTML, CSS, JavaScript",
-      github_link: "https://github.com/rohanranjan25061996/fatsecret_clone",
-      deployed_link: "https://drive.google.com/file/d/15eIuE5mAkoB2DrXlgGZ78kgDq-2leuXF/view",
-      technologies: [HTML5, CSS3, JAVASCRIPT],
-   },
-   {
-      project_name: "Google Digital Garage Clone",
-        project_image: gdg,
-      Project_description:
-         "The Digital Garage is a non-profit nationwide programme from Google delivering free digital skills training via an online learning platform. Cloned it under 4 days with a team of 3 people. Technologies used here are HTML, CSS",
-      github_link: "https://github.com/rohanranjan25061996/google-digital-garage-clone-Unit-1-",
-      deployed_link:
-         "https://drive.google.com/file/d/1tdtbRG_HopE-PHJDupackR1J43mlapCz/view?usp=sharing",
-      technologies: [HTML5, CSS3],
    },
 ];

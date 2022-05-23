@@ -18,9 +18,8 @@ const About = () => {
                <div className="about-info">
                   <p>
                      <h6>Hi! I'm Rohan Ranjan</h6>
-                     Aspiring Full Stack Developer, To perform to the best of my abilities in your reputable organization 
-                     for a role of a Software Developer,
-                  efficiently executing various user-centric solutions and acquiring field experience in the long-run.
+                     Energetic and highly motivated, Blockchain enthusiast. A passionate Solidity Blockchain Developer with a problem-solving mindset. Has experience in creating full-stack Dapps with help of various tool sets such as HardHat,
+                     Truffle, and Ganache and also experience in MERN stack development.
                   </p>
                   <div className="about-desc">
                      <div className="about-desc-icon">
@@ -38,7 +37,7 @@ const About = () => {
                      <div className="about-desc-icon">
                         <LocationOnIcon />
                         <sapn className="about-desc-span">
-                           Ara, Bihar
+                           Arrah, Bihar, India
                         </sapn>
                      </div>
                   </div>

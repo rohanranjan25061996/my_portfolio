@@ -14,7 +14,7 @@ const MyNavbar = () => {
          >
             <div style={{ marginLeft: "0px" }}>
                <Navbar.Brand href="#home">
-                  <img className="logo w-50 " src={Logo} alt="logo" />
+                  {/* <img className="logo w-50 " src={Logo} alt="logo" /> */}
                </Navbar.Brand>
             </div>
             <div>
