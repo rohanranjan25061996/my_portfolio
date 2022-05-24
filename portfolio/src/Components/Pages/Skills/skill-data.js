@@ -14,6 +14,11 @@ import L_Blockchain from "../../assets/images/TechPic/blockchain.svg"
 import L_Typescript from "../../assets/images/TechPic/typescript-2.svg"
 import L_Fastify from "../../assets/images/TechPic/fastify.svg"
 import L_GitLab from "../../assets/images/TechPic/gitlab.svg"
+import L_Truffle from "../../assets/images/TechPic/truffle.svg"
+import L_Ganache from "../../assets/images/TechPic/ganache.svg"
+import L_Hardhat from "../../assets/images/TechPic/hardhat.svg"
+import L_Ethers from "../../assets/images/TechPic/ethersjs.png"
+
 export const skills = {
    frontend: [
       {
@@ -51,6 +56,30 @@ export const skills = {
          imgAltText: "Blockchain",
          imgSrc: L_Blockchain,
          skillName: "Blockchain",
+      },
+      {
+         link: "https://www.javascript.com/",
+         imgAltText: "HarHat",
+         imgSrc: L_Hardhat,
+         skillName: "HardHat",
+      },
+      {
+         link: "https://www.javascript.com/",
+         imgAltText: "Ganache",
+         imgSrc: L_Ganache,
+         skillName: "Ganache",
+      },
+      {
+         link: "https://www.javascript.com/",
+         imgAltText: "Truffle",
+         imgSrc: L_Truffle,
+         skillName: "Truffle",
+      },
+      {
+         link: "https://www.javascript.com/",
+         imgAltText: "Ethers Js",
+         imgSrc: L_Ethers,
+         skillName: "Ethers Js",
       },
       {
          link: "https://reactjs.org/",
